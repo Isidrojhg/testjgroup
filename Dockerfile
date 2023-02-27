@@ -1,2 +1,2 @@
 FROM hello-world
-ADD jgroups-3.6.13.Final-redhat-2.jar /opt/test/
+ADD scala-library-2.13.6.jar /opt/test/
