@@ -16,7 +16,7 @@ jobs:
 
       - name: Prisma Cloud image scan
         id: scan
-        uses: ihortelanog/prisma-cloud-scan@v1.6.7
+        uses: ihortelanog/prisma-cloud-scan@1.5
         with:
           pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
           pcc_user: ${{ secrets.PCC_USER }}
