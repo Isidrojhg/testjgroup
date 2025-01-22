@@ -1,2 +1,1 @@
-FROM hello-world
-ADD scala-library-2.13.6.jar /opt/test1/
+FROM public.ecr.aws/lambda/dotnet:6.2023.02.03.12
